@@ -16,7 +16,6 @@ public class Application {
 		for (String url : urlList) {
 			List<String> command = new ArrayList<String>();
 			command.add("bin/ffmpeg/bin/ffmpeg.exe");
-			command.add("-headers");
 			command.add("-i");
 			command.add(url);
 			command.add("H:/TeduBigData/"+info.getName(url)+".mp4");
