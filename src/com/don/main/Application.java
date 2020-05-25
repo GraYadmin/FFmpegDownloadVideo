@@ -17,7 +17,6 @@ public class Application {
 			List<String> command = new ArrayList<String>();
 			command.add("bin/ffmpeg/bin/ffmpeg.exe");
 			command.add("-headers");
-			command.add("Referer: http://tts.tmooc.cn/video/showVideo?menuId=658388&version=BIGTN201901");
 			command.add("-i");
 			command.add(url);
 			command.add("H:/TeduBigData/"+info.getName(url)+".mp4");
